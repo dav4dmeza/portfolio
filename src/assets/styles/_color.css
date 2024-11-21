@@ -1,0 +1,17 @@
+:root {
+  --color-bg: #f8fafc;
+  --color-fg: #334155;
+  --color-muted: #e5e7eb;
+  --color-primary: #eab308;
+  --color-secondary: #475569;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #0f172a;
+    --color-fg: #f8fafc;
+    --color-muted: #374151;
+    --color-primary: #fbbf24;
+    --color-secondary: #cbd5e1;
+  }
+}

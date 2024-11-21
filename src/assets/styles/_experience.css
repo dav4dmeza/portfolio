@@ -1,0 +1,32 @@
+.experience__item {
+  border-left: var(--color-muted) solid 1px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  margin-left: 10px;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+}
+
+.experience__item > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience__item > div > p {
+  margin: 0;
+}
+
+.experience__item > div > strong,
+p {
+  padding-bottom: 10px;
+}
+
+.square {
+  background: var(--color-primary);
+  border-radius: 2px;
+  height: 15px;
+  margin-left: -40px;
+  margin-top: 4px;
+  position: absolute;
+  width: 15px;
+}

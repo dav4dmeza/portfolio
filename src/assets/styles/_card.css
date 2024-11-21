@@ -1,0 +1,67 @@
+.card {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+
+.card__item {
+  background: var(--color-bg);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: var(--color-muted) solid 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__item:hover {
+  box-shadow: 5px 5px 10px var(--color-muted);
+}
+
+.card__item--title {
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+.card__item--description {
+  padding: 10px;
+  line-height: 1.5rem;
+}
+
+.card__item--tags {
+  display: grid;
+  gap: 0.3rem;
+  grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+  padding: 10px;
+}
+
+.card__item--tags > span {
+  background: var(--color-fg);
+  border-radius: 9px;
+  color: var(--color-bg);
+  font-size: 0.8rem;
+  padding: 3px 5px;
+  text-align: center;
+}
+
+.card__item--links {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+  padding: 10px;
+}
+
+.card__item--links > a {
+  align-items: center;
+  background: var(--color-muted);
+  border-radius: 5px;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  padding: 7px 5px;
+  text-decoration: none;
+}
+
+.card__item--links > a:hover {
+  background: var(--color-fg);
+  color: var(--color-bg);
+}

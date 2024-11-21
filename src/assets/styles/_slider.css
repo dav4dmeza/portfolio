@@ -1,0 +1,20 @@
+.slider {
+  overflow: hidden;
+  padding-top: 5rem;
+}
+
+.slider__items {
+  animation: scroll 20s linear infinite;
+  display: flex;
+  width: calc(100px * 28);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100px * 14));
+  }
+}
