@@ -1,0 +1,27 @@
+.experience {
+  padding-top: 5rem;
+}
+
+.experience__title {
+  font-size: 2rem;
+}
+
+.experience__item {
+  border-left: var(--color-muted) solid 1px;
+  margin-left: 10px;
+  padding: 0 0 3rem 2rem;
+}
+
+.item__description {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.square {
+  background: var(--color-primary);
+  border-radius: 2px;
+  height: 15px;
+  margin: 3px 0 0 -40px;
+  position: absolute;
+  width: 15px;
+}

@@ -1,0 +1,12 @@
+.hero {
+  padding-top: 3rem;
+}
+
+.hero__title {
+  font-size: 3rem;
+}
+
+.hero__description {
+  font-size: 2rem;
+  line-height: 3rem;
+}

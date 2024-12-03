@@ -1,0 +1,12 @@
+.about {
+  padding-top: 5rem;
+}
+
+.about__title {
+  font-size: 2rem;
+}
+
+.about__description {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}

@@ -1,0 +1,31 @@
+html {
+  background: var(--color-bg);
+  color: var(--color-fg);
+  font-family: 'Ubuntu', system-ui, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 90vw;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 65vw;
+  }
+}
+
+.color--muted {
+  color: var(--color-muted);
+}
+
+.color--primary {
+  color: var(--color-primary);
+}
+
+.color--secondary {
+  color: var(--color-secondary);
+}
