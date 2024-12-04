@@ -19,7 +19,7 @@ const EXPERIENCES = [
     company: 'Le Tech de México',
     date: 'junio 2021 - enero 2022',
     description:
-      'Desarrollo de nuevas caracteristicas a la aplicación web y mejoras de la UI. Integración de pagos en línea con conekta. Desarrollo de una aplicación móvil para conteo de inventarios.',
+      'Desarrollo de nuevas características a la aplicación web y mejoras de la UI. Integración de pagos en línea con conekta. Desarrollo de una aplicación móvil para conteo de inventarios.',
     position: 'Programador',
   },
   {
