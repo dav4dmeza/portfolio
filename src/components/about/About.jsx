@@ -14,7 +14,7 @@ export default function About() {
         capacitación para el trabajo del estado de Veracruz.
       </p>
       <p className={styles.about__description}>
-        Me enfoqué por el lado de la programación, y mi objetvo es crear
+        Me enfoqué por el lado de la programación, y mi objetivo es crear
         soluciones de software de alta calidad.
       </p>
       <p className={styles.about__description}>
